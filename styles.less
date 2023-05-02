@@ -1,0 +1,104 @@
+@mtVernonBackgroundColor: #f0c26a;
+@mtVernonAccentColor: black;
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: @mtVernonBackgroundColor;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 55px;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=f0c26a');
+    position: absolute;
+    left: 5%;
+    top: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 75%;
+    list-style: none;
+    justify-content: end;
+    padding-top: 5px;
+}
+
+li {
+    padding-right: 40px;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: @mtVernonBackgroundColor;
+}
+
+.map-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.map-wrapper {
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.search-wrapper {
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    top: 35%;
+}
+
+.state-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 15%;
+}
+
+.card-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.state-card {
+    background-color: @mtVernonBackgroundColor;
+    border: 4px solid @mtVernonAccentColor;
+    border-radius: 10px;
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 800;
+    font-size: larger;
+}
