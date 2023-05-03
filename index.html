@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- below, there are several links to allow this site to work. features brought in below include: -->
+<!-- Boostrap, jQuery, favicon, and LESS preprocessor -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +20,7 @@
 </head>
 
 <body>
+  <!-- this is a bootstrap navigation bar. when the window is shrunk, it will become a Bootstrap hamburger menu -->
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -25,7 +29,7 @@
   
           <div class="collapse navbar-collapse bg-dark" id="navMenu">
             <ul class="navbar-nav">
-                <li><img src="assets/home.png" alt=""><a href="index.html"> Home</a></li>
+                <li><img src="assets/home.png" alt="Home Icon"><a href="index.html"> Home</a></li>
                 <li><a class="state-cards">States</a></li>
                 <li><a href="quiz.html">Quiz</a></li>
             </ul>
@@ -33,12 +37,17 @@
         </div>
       </nav>
 
+      <!-- using jQuery, this title will contain the name of the state being examined -->
     <div class="state-title"></div>
 
+    <!-- This starts by containing a picture of the full US map, then jQuery can change it to a picture of a states
+    flag -->
     <div class="map-wrapper">
         <img src="assets/big-map.png" alt="Full U.S. Map">
     </div>
 
+    <!-- starting out, this is a bootstrap form group so a user can type a state name -->
+    <!-- once  a state is found, information will pop up, through the use of Bootstrap accordian  -->
     <div class="search-wrapper">
         <h4>Enter a state name to learn more about it!</h4>
         <br />
@@ -51,6 +60,7 @@
         <button type="button" class="btn btn-dark view-btn">View State</button>
     </div>
 
+    <!-- if the user wants to see the full list of states, this div will populate with little cards containing all 50 names -->
     <div class="card-wrapper"></div>
 
 </body>

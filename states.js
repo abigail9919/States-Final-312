@@ -36,6 +36,7 @@ const stateInfo = (states, name) => {
     // find the state requested
     let foundState = findState(states, name);
 
+    // this is just the bootstrap accordian
     let accordian = `<div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
@@ -99,6 +100,7 @@ const stateView = (states) => {
     });
 };
 
+// creates a little card with every state's name on it
 const process = (states) => {
     let allCards = "";
     states.forEach(function (state) {
@@ -112,6 +114,9 @@ const stateCards = (states) => {
     // empty out the content to make room for state cards (all 50 states at a glance)
     $(".map-wrapper").animate({opacity: '0'}, 'fast');
     $(".search-wrapper").animate({opacity: '0'}, 'fast');
+    $(".quiz").animate({opacity: '0'}, 'fast');
+    $(".quiz").empty();
+    $(".quiz-title").empty();
     $(".map-wrapper").empty();
     $(".search-wrapper").empty();
 

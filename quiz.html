@@ -15,6 +15,7 @@
     <script src="states.js" defer></script>
     <title>QUIZ</title>
 </head>
+<!-- this whole page is one big Bootstrap form. Every answer choice is either a checkbox or a radio button -->
 <body>
 
     <nav class="navbar navbar-expand-lg bg-dark">
@@ -32,6 +33,278 @@
           </div>
         </div>
       </nav>
+
+      <h4 class="quiz-title">QUIZ</h4>
+
+      <div class="card-wrapper"></div>
+
+      <form class="quiz">
+        <label>1. Which of the following are major tourist attractions of Indiana? Select all that apply</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques1-1" id="ques1-1" value="option1">
+          <label class="form-check-label" for="ques1-1">
+            Indiana Dunes National Park
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques1-2" id="ques1-2" value="option2">
+          <label class="form-check-label" for="ques1-2">
+            Indianapolis Motor Speedway
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques1-3" id="ques1-3" value="option3">
+          <label class="form-check-label" for="ques1-3">
+            Brown County State Park
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques1-4" id="ques1-4" value="option4">
+          <label class="form-check-label" for="ques1-4">
+            Conner Prairie
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques1-5" id="ques1-5" value="option5">
+          <label class="form-check-label" for="ques1-5">
+            Children's Museum of Indianapolis
+          </label>
+        </div><br /><br />
+
+        <label>2. What's the capital of Vermont?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques2" id="ques2-1">
+          <label class="form-check-label" for="ques2-1">
+            Montpelier
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques2" id="ques2-2">
+          <label class="form-check-label" for="ques2-2">
+            Boise
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques2" id="ques2-3">
+          <label class="form-check-label" for="ques2-3">
+            Atlanta
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques2" id="ques2-4">
+          <label class="form-check-label" for="ques2-4">
+            Lincoln
+          </label>
+        </div><br /><br />
+
+        <label>3. What is Maryland's official state sport?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques3" id="ques3-1">
+          <label class="form-check-label" for="ques3-1">
+            Jousting
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques3" id="ques3-2">
+          <label class="form-check-label" for="ques3-2">
+            Soccer
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques3" id="ques3-3">
+          <label class="form-check-label" for="ques3-3">
+            Football
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques3" id="ques3-4">
+          <label class="form-check-label" for="ques3-4">
+            Badminton
+          </label>
+        </div><br /><br />
+
+        <label>4. What colors are Oregon's state flag?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques4" id="ques4-1">
+          <label class="form-check-label" for="ques4-1">
+            Blue and yellow
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques4" id="ques4-2">
+          <label class="form-check-label" for="ques4-2">
+            Red and gray
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques4" id="ques4-3">
+          <label class="form-check-label" for="ques4-3">
+            Pink and green
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques4" id="ques4-4">
+          <label class="form-check-label" for="ques4-4">
+            Brown and orange
+          </label>
+        </div><br /><br />
+
+        <label>5. What is the landmass of Delaware?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques5" id="ques5-1">
+          <label class="form-check-label" for="ques5-1">
+            1,954 sq mi
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques5" id="ques5-2">
+          <label class="form-check-label" for="ques5-2">
+            2,381 sq mi
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques5" id="ques5-3">
+          <label class="form-check-label" for="ques5-3">
+            982 sq mi
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques5" id="ques5-4">
+          <label class="form-check-label" for="ques5-4">
+            4,147 sq mi
+          </label>
+        </div><br /><br />
+
+        <label>6. What's the smallest state in the United States?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques6" id="ques6-1">
+          <label class="form-check-label" for="ques6-1">
+            Rhode Island
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques6" id="ques6-2">
+          <label class="form-check-label" for="ques6-2">
+            Pennsylvania
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques6" id="ques6-3">
+          <label class="form-check-label" for="ques6-3">
+            Maryland
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques6" id="ques6-4">
+          <label class="form-check-label" for="ques6-4">
+            Tennessee
+          </label>
+        </div><br /><br />
+
+        <label>7. Which of the folllowing are the major industries of Floria? Select three.</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques7-1" id="ques7-1" value="option1">
+          <label class="form-check-label" for="ques7-1">
+            Tourism
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques7-2" id="ques7-2" value="option2">
+          <label class="form-check-label" for="ques7-2">
+            Agriculture
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques7-3" id="ques7-3" value="option3">
+          <label class="form-check-label" for="ques7-3">
+            Healthcare
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="ques7-4" id="ques7-4" value="option4">
+          <label class="form-check-label" for="ques7-4">
+            Entertainment
+          </label>
+        </div><br /><br />
+
+        <label>8. What is the capital city of Wisconsin?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques8" id="ques8-1">
+          <label class="form-check-label" for="ques8-1">
+            Madison
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques8" id="ques8-2">
+          <label class="form-check-label" for="ques8-2">
+            Pierre
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques8" id="ques8-3">
+          <label class="form-check-label" for="ques8-3">
+            Concord
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques8" id="ques8-4">
+          <label class="form-check-label" for="ques8-4">
+            Albany
+          </label>
+        </div><br /><br />
+
+        <label>9. What animal is on California's state flag?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques9" id="ques9-1">
+          <label class="form-check-label" for="ques9-1">
+            Bear
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques9" id="ques9-2">
+          <label class="form-check-label" for="ques9-2">
+            Alligator
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques9" id="ques9-3">
+          <label class="form-check-label" for="ques9-3">
+            Dragon
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques9" id="ques9-4">
+          <label class="form-check-label" for="ques9-4">
+            Horse
+          </label>
+        </div><br /><br />
+
+        <label>10. What is the land mass of Hawaii?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option1" name="ques10" id="ques10-1">
+          <label class="form-check-label" for="ques10-1">
+            10,931 sq mi
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option2" name="ques10" id="ques10-2">
+          <label class="form-check-label" for="ques10-2">
+            7,062 sq mi
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option3" name="ques10" id="ques10-3">
+          <label class="form-check-label" for="ques10-3">
+            13,158 sq mi
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" value="option4" name="ques10" id="ques10-4">
+          <label class="form-check-label" for="ques10-4">
+            11,793 sq mi
+          </label>
+        </div><br /><br />
+      </form>
 
 </body>
 </html>
